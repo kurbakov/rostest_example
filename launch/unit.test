@@ -1,0 +1,4 @@
+<launch>
+    <test test-name="test_name1" pkg="ros_test" type="unit_tests1.py" />
+    <test test-name="test_name2" pkg="ros_test" type="unit_tests2.py" />
+</launch>

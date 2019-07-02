@@ -1,0 +1,4 @@
+<launch>
+    <include file="$(find ros_test)/launch/run.launch" />
+    <test test-name="component_test_name" pkg="ros_test" type="component_test.py" />
+</launch>
